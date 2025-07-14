@@ -1,4 +1,4 @@
-# Content Repurposer AI 🎬✨
+# Content Repurposer AI 🎬🔁
 
 **An AI system that transforms long-form content into ready-to-publish short-form assets.**
 
