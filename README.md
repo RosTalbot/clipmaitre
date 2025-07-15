@@ -4,6 +4,17 @@
 
 Content Repurposer AI identifies highlight moments from podcasts or YouTube videos, then generates short-form clips, titles, captions, and thumbnail prompts — helping creators stay consistent without starting from scratch every week.
 
+## Problem:
+Long-form content wasn’t being effectively leveraged into short-form clips that matched the brand tone and storytelling style.
+
+## Solution:
+Designed an AI system that ingests full episodes, identifies story-driven highlights, and drafts platform-specific titles, captions, and hooks — ready for reels or TikToks.
+
+## Results:
+- Higher-quality, more on-brand short content
+- Reduced reliance on generic AI clipping tools (e.g., OpusClip)
+- Lays foundation for future automation of publishing pipelines
+
 ---
 
 ## ✨ Features
