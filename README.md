@@ -4,12 +4,12 @@
   <tr>
     <td>
 
-**Project Type:** AI-Powered Video Clipping + Short-Form Content Generator  
+**Project Type:** AI-Powered Video Clipping + Short-Form Content Generator  <br><br>
 **Agent Role:** A pompous French director AI who slices long-form content into award-worthy Reels, Shorts, and TikToks — with creative flair and narrative obsession.
 
 </td>
 <td align="right" width="250">
-  <img src="screenshots/ClipMaitre-Avatar.png" alt="ClipMaître Persona" width="200" />
+  <img src="screenshots/ClipMaître-Persona.png" alt="ClipMaître Persona" width="200" />
 </td>
   </tr>
 </table>
