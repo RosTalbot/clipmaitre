@@ -1,61 +1,99 @@
-# Content Repurposer AI 🎬🔁
+# 🎬 ClipMaître
 
-**An AI system that transforms long-form content into ready-to-publish short-form assets.**
+<table>
+  <tr>
+    <td>
 
-Content Repurposer AI identifies highlight moments from podcasts or YouTube videos, then generates short-form clips, titles, captions, and thumbnail prompts — helping creators stay consistent without starting from scratch every week.
+**Project Type:** AI-Powered Video Clipping + Short-Form Content Generator  
+**Agent Role:** A pompous French director AI who slices long-form content into award-worthy Reels, Shorts, and TikToks — with creative flair and narrative obsession.
 
-## Problem:
-Long-form content wasn’t being effectively leveraged into short-form clips that matched the brand tone and storytelling style.
+</td>
+<td align="right" width="250">
+  <img src="screenshots/ClipMaitre-Avatar.png" alt="ClipMaître Persona" width="200" />
+</td>
+  </tr>
+</table>
 
-## Solution:
-Designed an AI system that ingests full episodes, identifies story-driven highlights, and drafts platform-specific titles, captions, and hooks — ready for reels or TikToks.
+---
 
-## Results:
-- Higher-quality, more on-brand short content
-- Reduced reliance on generic AI clipping tools (e.g., OpusClip)
-- Lays foundation for future automation of publishing pipelines
+## 🔍 Purpose
+Long-form content is often underutilized — packed with value, but rarely repurposed well. ClipMaître exists to *elevate* short-form output with stronger storytelling, smarter clip choices, and personality-infused titles, captions, and thumbnails.
+
+Think: Less "random auto-clip," more "director’s cut."
+
+---
+
+## 🎯 Problem → Solution
+
+> **Problem:** Long-form content wasn’t being effectively leveraged into short-form clips that matched the brand tone and storytelling style.
+>
+> **Solution:** Designed an AI system that ingests full episodes, identifies story-driven highlights, and drafts platform-specific titles, captions, and hooks — ready for reels or TikToks.
 
 ---
 
 ## ✨ Features
 
-- 🎯 **Highlight Detection:** Uses AI to identify emotionally engaging or informative segments.
-- ✍️ **Auto-Generated Captions & Hooks:** Drafts compelling video hooks and captions for Reels, Shorts, or TikToks.
-- 🧠 **Title Suggestions:** Provides 3–5 title options based on clip themes and platform best practices.
-- 🎨 **Thumbnail Prompt Ideas:** Outputs suggested facial expressions, key phrases, and style direction for thumbnails.
-- 🧾 **Exportable Content Pack:** Outputs content in structured markdown or JSON format, ready for QA and scheduling.
+- 🎯 **Highlight Detection** — Uses AI to identify emotionally engaging or informative segments
+- ✍️ **Auto Captions & Hooks** — Generates short-form captions and intros styled for Instagram/TikTok
+- 🧠 **Title Suggestions** — Drafts 3–5 clip titles that lean into narrative, tone, or virality
+- 🎨 **Thumbnail Prompting** — Suggests frame, face, and text direction for reels
+- 🧾 **Content Pack Export** — Outputs structured Markdown or JSON ready for QA and upload
 
 ---
 
-## 🔧 Tools & Stack
+## ♻️ Workflow
 
-- **GPT-4** — core logic and prompt chaining
-- **NotebookLM** — long-form episode research
-- **Google Sheets** — structured data handoff + QA
-- **Notion** — reference docs and team approvals
-- **n8n** (in progress) — automation layer for inputs, outputs, and notifications
+1. **Upload Transcript** (YouTube or Frame.io)
+2. **Run through Prompt Logic** (GPT-4, NotebookLM assist)
+3. **Extract 3–6 Highlights** (Based on emotion, energy, clarity)
+4. **Generate Outputs per Highlight:**
+   - Title
+   - Caption
+   - Thumbnail Prompt
+   - Optional CTA
+5. **Review + Schedule** in Google Sheets, Notion, or Meta
 
 ---
 
-## ⚙️ Workflow
+## 🔧 Stack
 
-1. Upload episode transcript via YouTube or Frame.io.
-2. GPT parses the transcript and suggests 3–6 highlight-worthy moments.
-3. For each clip, the system generates:
-   - Clip title options
-   - Hook-style caption drafts
-   - Thumbnail visual prompts
-   - Optional call-to-action language
-4. All assets are reviewed in Google Sheets or Notion before scheduling.
+- **GPT-4 / GPT-4o** — core prompt logic
+- **NotebookLM** — deep research on context
+- **Google Sheets** — content handoff, QA
+- **Notion** — reference library and feedback
+- **n8n** — automation layer for workflows
 
 ---
 
 ## 📦 Status
-
-Currently in real-world use with weekly podcast content. Iterating on prompt logic to improve emotional hook accuracy and clip pacing. n8n automation will be added to streamline ingestion and QA workflows.
+- ✅ In live use for weekly podcast repurposing
+- 🔄 Refining prompt logic for emotional arc detection
+- 🛠️ Building n8n ingestion-to-output pipeline
 
 ---
 
-## 🧠 Creator Notes
+## 👥 Cast & Crew
 
-This system was designed to **augment a lean creative team**. It reduces the burden of weekly content slicing while keeping the voice and style on-brand. It is not fully automated — a human-in-the-loop always reviews and refines the final cuts.
+### **🎬 ClipMaître** – The Director  
+> "This is not content. This is *cinéma*."
+
+### **🎤 Phillip Short** – The Spokesman  
+> "Our reels have *narrative arc*, *emotional payoff*, and *hook cadence*."
+
+---
+
+## 📘 Creator Notes
+
+This agent was designed as a portfolio-grade project and workflow enabler:
+
+- **Real use case:** Live content from two clients
+- **Human-in-the-loop:** All clips reviewed
+- **Future roadmap:** More automation, fewer mid-tier tools
+
+---
+
+## 🧠 Part of the Vibe Agent Series
+
+Creative agents for real-life bottlenecks.
+
+[⬅ Back to Agent Index](https://github.com/RosTalbot/vibe-agent-series)
